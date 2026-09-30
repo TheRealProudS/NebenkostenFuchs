@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  --color-fuchs: #e8702a;
+  --color-fuchs-dunkel: #c25a1c;
+  --color-tinte: #1f2a36;
+  --color-papier: #f7f3ec;
+  --color-gruen: #2e9e6b;
+  --color-gelb: #d9a21b;
+  --color-rot: #c8412f;
+  --color-linie: #1f2a3622;
+  --font-sans: var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-fraunces), ui-serif, Georgia, serif;
+}
+
+html { background: var(--color-papier); color: var(--color-tinte); }
+body { font-family: var(--font-sans); -webkit-font-smoothing: antialiased; }
+::selection { background: #e8702a40; }
+
+.prose-fuchs h2 { font-family: var(--font-serif); font-size: 1.6rem; font-weight: 600; margin: 2.5rem 0 .75rem; line-height: 1.2; }
+.prose-fuchs h3 { font-weight: 700; margin: 1.75rem 0 .5rem; }
+.prose-fuchs p, .prose-fuchs li { line-height: 1.7; margin: .6rem 0; }
+.prose-fuchs ul { list-style: disc; padding-left: 1.25rem; }
+.prose-fuchs a { color: var(--color-fuchs-dunkel); text-decoration: underline; text-underline-offset: 3px; }
+.prose-fuchs table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: .95rem; }
+.prose-fuchs td, .prose-fuchs th { border-bottom: 1px solid var(--color-linie); padding: .5rem .25rem; text-align: left; vertical-align: top; }
+
+.btn { display: inline-flex; align-items: center; gap: .5rem; border-radius: 999px; padding: .8rem 1.4rem; font-weight: 700; transition: background .15s, transform .15s; }
+.btn-primaer { background: var(--color-fuchs); color: white; }
+.btn-primaer:hover { background: var(--color-fuchs-dunkel); }
+.btn-sekundaer { border: 1.5px solid var(--color-tinte); }
+.btn-sekundaer:hover { background: #1f2a360d; }
+.btn:disabled { opacity: .5; cursor: not-allowed; }

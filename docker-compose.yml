@@ -1,0 +1,34 @@
+services:
+  app:
+    build: .
+    image: nebenkostenfuchs:latest
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      DATABASE_URL: postgres://fuchs:${POSTGRES_PASSWORD}@db:5432/fuchs
+    ports:
+      - "127.0.0.1:4030:4030"
+    volumes:
+      - tess:/app/tess
+    depends_on:
+      db:
+        condition: service_healthy
+    mem_limit: 1g
+
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: fuchs
+      POSTGRES_DB: fuchs
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U fuchs"]
+      interval: 5s
+      retries: 10
+
+volumes:
+  pgdata:
+  tess:

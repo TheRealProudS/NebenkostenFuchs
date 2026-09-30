@@ -1,0 +1,35 @@
+NebenkostenFuchs Source-Available License (NKF-1.0)
+
+Copyright (c) 2026 Cyrill-Pascal Zenkner / Zenkner-Technology. Alle Rechte vorbehalten.
+
+Der Quellcode von NebenkostenFuchs (die "Software") wird veröffentlicht, damit jede Person nachvollziehen kann, wie die Software arbeitet und wie sie mit Daten umgeht. Hiermit wird jeder Person unentgeltlich die Erlaubnis erteilt, die Software unter den folgenden Bedingungen zu nutzen:
+
+1. Einsicht und Lernen:
+   Der Quellcode darf gelesen, heruntergeladen, analysiert und zu Lern-, Prüf- und Forschungszwecken verwendet werden. Sicherheits- und Fehlerhinweise sind ausdrücklich willkommen.
+
+2. Private, nicht-kommerzielle Nutzung:
+   Die Software darf für rein persönliche, private und nicht-kommerzielle Zwecke ausgeführt, verändert und angepasst werden, zum Beispiel zur Prüfung der eigenen Nebenkostenabrechnung.
+
+3. Nicht erlaubt ohne vorherige schriftliche Zustimmung:
+   a) jede kommerzielle oder geschäftliche Nutzung, Verwertung oder Einbindung in eigene Produkte,
+   b) der Betrieb der Software oder veränderter Fassungen als öffentlich zugänglicher Dienst, gleich ob kostenlos oder kostenpflichtig,
+   c) der Weiterverkauf, die Unterlizenzierung oder das Anbieten als Dienstleistung,
+   d) die Verwendung der Namen "NebenkostenFuchs", "Zenkner-Technology" sowie der zugehörigen Logos für eigene Angebote.
+
+   Kontakt für Anfragen und Lizenzvereinbarungen:
+   Zenkner-Technology
+   Inhaber: Cyrill-Pascal Zenkner
+   E-Mail: cyrill-pascal.zenkner@zenkner-technology.de
+   Web: https://www.zenkner-technology.de
+
+4. Weitergabe:
+   Unveränderte oder veränderte Kopien dürfen nur zu den in Nummer 1 und 2 genannten Zwecken und nur zusammen mit diesem Lizenztext weitergegeben werden. Der obige Urheberrechtshinweis muss in allen Kopien oder wesentlichen Teilen der Software erhalten bleiben.
+
+5. Keine Rechtsberatung:
+   Die Software führt eine automatisierte Prüfung anhand allgemeiner gesetzlicher Regeln durch. Ihre Ergebnisse stellen keine Rechtsberatung dar.
+
+6. Haftungsausschluss:
+   DIE SOFTWARE WIRD OHNE JEGLICHE AUSDRÜCKLICHE ODER STILLSCHWEIGENDE GEWÄHRLEISTUNG BEREITGESTELLT, EINSCHLIESSLICH, ABER NICHT BESCHRÄNKT AUF DIE GEWÄHRLEISTUNG DER MARKTGÄNGIGKEIT, DER EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND DER NICHTVERLETZUNG VON RECHTEN DRITTER. IN KEINEM FALL SIND DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER SONSTIGE HAFTUNGEN VERANTWORTLICH, SEI ES AUS VERTRAG, UNERLAUBTER HANDLUNG ODER ANDERWEITIG, DIE AUS ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER DEM SONSTIGEN UMGANG MIT DER SOFTWARE ENTSTEHEN, SOWEIT DIES GESETZLICH ZULÄSSIG IST.
+
+7. Verwendete Bibliotheken:
+   Verwendete Drittbibliotheken unterliegen ihren eigenen Lizenzen. Diese Lizenz gilt nur für den Code von NebenkostenFuchs selbst.
