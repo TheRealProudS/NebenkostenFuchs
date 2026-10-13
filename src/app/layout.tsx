@@ -26,6 +26,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Header />
         <main>{children}</main>
         <Footer />
+        <script src="https://www.zenkner-technology.de/chatbot/widget/chatheld-widget.js" data-project="nebenkostenfuchs" defer />
       </body>
     </html>
   );

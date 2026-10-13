@@ -5,7 +5,7 @@ export const metadata: Metadata = { title: "Datenschutz" };
 
 export default function Datenschutz() {
   return (
-    <Textseite titel="Datenschutzerklärung" stand="September 2026">
+    <Textseite titel="Datenschutzerklärung" stand="Oktober 2026">
       <h2>Kurz gesagt</h2>
       <ul>
         <li>Kein Konto, keine Werbe- oder Analyse-Cookies, kein Tracking.</li>
@@ -44,6 +44,12 @@ export default function Datenschutz() {
 
       <h2>Lokale Speicherung im Browser</h2>
       <p>Das Prüfergebnis liegt im sessionStorage deines Browsers und verschwindet mit dem Tab. Wenn du „Adressen auf diesem Gerät merken“ wählst, werden die Adressen im localStorage abgelegt. Beides wird nicht an uns übertragen.</p>
+
+      <h2>ChatHeld KI-Assistent (Chat-Widget)</h2>
+      <p>Auf dieser Website ist der ChatHeld KI-Assistent eingebunden, ein Chat-Fenster für Fragen zum Angebot. Betreiber ist Zenkner-Technology selbst, ein externer KI-Dienst wird nicht eingesetzt. Skript und Logo des Assistenten werden von einem Server von Zenkner-Technology (www.zenkner-technology.de) in Deutschland geladen. Dabei wird technisch notwendig die IP-Adresse verarbeitet.</p>
+      <p>Gibst du eine Frage ein, wird der Text an einen Server von Zenkner-Technology in Deutschland (cms.growtracker.de) übertragen und dort automatisch mit einer festen Wissensbasis abgeglichen. Die Fragen werden dabei nicht dauerhaft gespeichert, gezählt wird nur die Anzahl der Anfragen. Der Chatverlauf (höchstens die letzten 30 Nachrichten) sowie von dir eingegebene Namen und E-Mail-Adressen liegen im lokalen Speicher (localStorage) deines Browsers und können dort jederzeit von dir gelöscht werden.</p>
+      <p>Erstellst du über den Chat ein Support-Ticket, verarbeiten wir Vorname, Nachname, E-Mail-Adresse, deine Nachricht und den bisherigen Chatverlauf, um die Anfrage zu bearbeiten. Du erhältst eine Bestätigung per E-Mail.</p>
+      <p>Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der Beantwortung von Anfragen), bei Support-Tickets zusätzlich Art. 6 Abs. 1 lit. b DSGVO, soweit die Anfrage auf einen Vertrag gerichtet ist.</p>
 
       <h2>Deine Rechte</h2>
       <p>Du hast das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch sowie das Recht auf Beschwerde bei einer Aufsichtsbehörde, etwa beim Sächsischen Datenschutz- und Transparenzbeauftragten.</p>
