@@ -13,11 +13,11 @@
   },
   "dependencies": {
     "docx": "^9.0.0",
-    "next": "^15.0.0",
+    "next": "^15.5.29",
     "pdf-lib": "^1.17.1",
     "postgres": "^3.4.4",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
     "tesseract.js": "^5.1.0",
     "unpdf": "^0.12.0",
     "zod": "^3.23.8"
